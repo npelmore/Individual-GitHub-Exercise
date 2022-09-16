@@ -5,6 +5,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		
+		//Hello, this is a comment
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("For comparing integers, please enter 1. For comparing strings, please enter 2.");
