@@ -26,7 +26,6 @@ public class Main {
 			
 			System.out.println("Please enter an string with no spaces:");
 			String str1 = input.next();
-			
 			System.out.println("Please enter another string with no spaces:");
 			String str2 = input.next();
 			
@@ -38,7 +37,6 @@ public class Main {
 		}
 		else System.out.println("You have entered neither 1 nor 2. Please restart to try again.");
 	}
-	
 	public static int intCompare(int a, int b) {
 		if (a>b) return 1;
 		else if (a<b) return 2;
