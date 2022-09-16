@@ -31,8 +31,8 @@ public class Main {
 			
 			int result = strCompare(str1,str2);
 			
-			if (result==1) System.out.println(str1+ " is greater than " + str2);
-			else if (result==2) System.out.println(str2 + " is greater than " + str1);
+			if (result==1) System.out.println(str1+ " is longer than " + str2);
+			else if (result==2) System.out.println(str2 + " is longer than " + str1);
 			else System.out.println("The strings are equal");
 		}
 		else System.out.println("You have entered neither 1 nor 2. Please restart to try again.");
